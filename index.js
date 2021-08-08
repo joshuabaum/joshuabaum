@@ -34,7 +34,13 @@ function college2(){
 	window.location.href = 'college2.html';
 }
 
+function college3(){
+	window.location.href = 'college3.html';
+}
 
+function college4(){
+	window.location.href = 'college4.html';
+}
 
 //this part allows lower res images to load first then they are replaced gradually by the higher res images
 images = document.getElementsByClassName("img");

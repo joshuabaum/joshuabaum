@@ -6,27 +6,28 @@
     <script src="pages.js"></script>
 	</head>
 	
-	<title> Joshua Baum Photography </title>
+	<title> Photos </title>
 	
 	<body class="bck1" id="body">
 
 		<div class="pages">
-		<ul class="nav-bar">
-			<li onclick="home()">HOME</li>
-			<li onclick="fav()">FAVORITES</li>
-			<li onclick="series()">SERIES</li>
+		<ul class="nav-bar-2">
+			<li onclick="home()">&lt-- home</li>
 			</ul>
 		</div>
         
 		<div class="photos">
-            <h1<> Still In Progress...</h1>
 			<ul class="photo-list">
 				<li class="photo-container-tall"> <img src="pictures/series/college2/roof.jpg" class="img-tall"> </li>
 				<li class="photo-container-tall"> <img src="pictures/series/college2/desk.jpg"  class="img-tall"> </li>
-				<li class="photo-container-tall"> <img src="pictures/series/college2/sather.jpg"  class="img-tall"  onload="higherRes()"> </li>
-
-			</ul>
+				<li class="photo-container-tall"> <img src="pictures/series/college2/sather.jpg"  class="img-tall"> </li>
+				<li class="photo-container-wide"> <img src="pictures/series/college2/roomies.jpg"  class="img-wide"> </li>
+				<li class="photo-container-wide"> <img src="pictures/series/college2/comp.jpg"  class="img-wide"> </li>
+				<li class="photo-container-wide"> <img src="pictures/series/college2/berkeley_mine_craft.jpg"  class="img-wide"> </li>
+			</ul onload="higherRes()">
 		</div>
-
+		<script type="text/javascript">
+			higherRes();
+		</script>
 	</body>
 </html>
