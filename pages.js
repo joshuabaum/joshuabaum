@@ -43,6 +43,10 @@ function college4(){
 	window.location.href = 'college4.html';
 }
 
+function maybe(){
+	window.location.href = 'maybe.html';
+}
+
 //this part allows lower res images to load first then they are replaced gradually by the higher res images
 highResRun = 0;
 function higherRes(){
